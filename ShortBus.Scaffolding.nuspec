@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ShortBus.Scaffolding</id>
+    <version>0.0.1-beta</version>
+    <authors>Matthew Fanto</authors>
+    <owners>Matthew Fanto</owners>
+    <licenseUrl>http://creativecommons.org/licenses/by/4.0/deed.en_US</licenseUrl>
+    <projectUrl>https://github.com/mfanto/ShortBus.Scaffolding</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MvcScaffolding templates for the ShortBus Mediator</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>shortbus mvcscaffolding scaffolding</tags>
+    <dependencies>
+      <dependency id="ShortBus" version="3.0.48-beta" />
+      <dependency id="MvcScaffolding" version="1.0.8-vs2013" />
+    </dependencies>
+  </metadata>
+</package>

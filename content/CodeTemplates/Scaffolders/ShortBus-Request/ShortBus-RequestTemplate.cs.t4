@@ -1,0 +1,16 @@
+<#@ Template Language="C#" HostSpecific="True" Inherits="DynamicTransform" #>
+<#@ Output Extension="cs" #>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using ShortBus;
+using <#= Model.ModelNamespace #>;
+
+namespace <#= Model.Namespace + ".Requests" #>
+{ 
+    public class <#= Model.Name #> : IRequest<<#= Model.ReturnType #>>
+    {
+		
+	}
+}
