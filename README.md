@@ -7,10 +7,10 @@ To use:
 
 Open up the package manager console. By default, requests and notifications are stored in:
 
-> \Mediator\Requests
-> \Mediator\Requests\Handlers
-> \Mediator\Notifications
-> \Mediator\Notifications\Handlers
+> \Mediator\Requests  
+> \Mediator\Requests\Handlers  
+> \Mediator\Notifications  
+> \Mediator\Notifications\Handlers  
 
 You can changet his with the -DefaultDirectory option
 
